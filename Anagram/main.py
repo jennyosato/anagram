@@ -18,4 +18,4 @@ def find_anagram(word, anagram):
         return False
 
 
-find_anagram("stool", "tools")
+find_anagram("stool", "loots")
