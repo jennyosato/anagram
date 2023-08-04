@@ -10,9 +10,9 @@ from re import X
 
 def find_anagram(word, anagram):
     # [assignment] Add your code here
-    so = word.replace(" ", "").lower()
-    yo = anagram.replace(" ", "").lower()
-    if sorted(so) == sorted(yo):
+    words = word.replace(" ", "").lower()
+    anag = anagram.replace(" ", "").lower()
+    if sorted(words) == sorted(anag):
         return True
     else:
         return False
